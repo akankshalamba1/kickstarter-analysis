@@ -125,11 +125,16 @@ Following are some of the difficulties Encountered while working on this project
 - **Unclear Data**: At first glance the data file appeared to alien, it take time get familiarize with the data as well as we cant use the data in the original form to base our analysis on. Data values such as Launch and Deadline is not easily interpreted as dates. For someone new to excel it will take them a while to point it out, as well as category and subcategory are combined into one set, which make the data complecated
 - **Huge dataset**: Grasping the huge amount of data in one go is really tedious task. It could be overwhelming for someone like Lousie who is new to excel. Data could have been more organized and shrunk.
 - **Use of multiple constrains**: Data range is too wide spread, data from 2009 to 2017 compressed together, with multiple countries and currencies at the same time.
+
 #### Overcoming difficulties
+To overcome the difficulties of data we used filters, formating tools and created simplified outlook of the Excel sheet by creating columns like "Parent Category" and "Subcategory", as well as "Date Creation Conversion" and "Date Ended Conversion". By using features like pivot table and pivot chart we were able to narrow down the data which is important for this analysis
 
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+By Analyzing the outcomes based on the Launch date we were able to focus on which time of the year is best to do theater shows. Some conclusions draws by this analysis are as follows:
+- Most successful month: Based on our observation it is clear that the month of "May" has the most successful plays as compared to other months
+- Trend in the success based on the months:
 
 - What can you conclude about the Outcomes based on Goals?
 
