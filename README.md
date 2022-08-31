@@ -33,7 +33,7 @@ Highlight the top row of the file and select Sort & Filter option from the right
 ![Test Image](/Screenshot/Formatting.png)
 
 ---
-![Test Image](/Screenshot/Formatting.2.png)
+![Test Image](/Screenshot/Formatting 2.png)
  
 >Conditional formating provide a visual sorting to the outcomes and thus is a great way for the viewer to find information at a glance.
 
