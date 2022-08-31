@@ -140,6 +140,8 @@ By Analyzing the outcomes based on the Launch date we were able to focus on whic
 
 - What can you conclude about the Outcomes based on Goals?
 
+Based on the analysis 
+
 - What are some limitations of this dataset?
 
 - What are some other possible tables and/or graphs that we could create?
