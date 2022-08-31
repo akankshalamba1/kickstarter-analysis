@@ -58,6 +58,7 @@ The orignal data had some information that was not in readable form like the Lau
  >=(((J2/60/60/24)+DATE(1970,1,1)))
  
  <Sub>Unix timestamps measure time as the number of seconds since midnight of January 1, 1970</sub>
+ 
 Year function was applied to just take the years from the launch date. The formula is as follows:
  >YEAR(Launch_date_column)
 All these steps were followed to analyze the data.
@@ -110,7 +111,7 @@ To calculate the data for Number Sucessful, Number Failed and Number Canceled pl
 #### Percentage of Sucessful, failed and canceled plays
 Once we recieve the outcome of all the three columns, create a new column titled "Total Projects" by adding all outcomes for each range. To evaluate the sucess rate of the plays by the goal range we calculated the percentage of each outcome by dividing the number successful, Failed, Canceled by Total project multiply by 100. The table will look like this:
 
-![Test Image](/Screenshot/Table.png)
+![Test Image](/Screenshot/goal_table.png)
 
 #### Line chart
 To make the data visually presentable and to back up our recommendation we created a line chart based on the data.
