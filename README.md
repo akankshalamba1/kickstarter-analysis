@@ -10,8 +10,7 @@ Microsoft Excel was used as the main tool to analyze the data for his project. T
 
 *ADD LINK TO EXCEL*
 
-### Purpose
-
+### Purpose ---
 Purpose of Analysis is to provide a deeper understanding of the various factors responsible for success of various crowdfund fundraising campaigns. For his project we will only be considering on two aspects of comparison of various plays that are Outcome based on the Launch Date and Outcome based on Goals.
 
 ## Analysis and Challenges
