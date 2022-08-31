@@ -131,7 +131,7 @@ To overcome the difficulties of data we used filters, formating tools and create
 
 ## Results
 
-####What are two conclusions you can draw about the Outcomes based on Launch Date?
+#### What are two conclusions you can draw about the Outcomes based on Launch Date?
 
 By Analyzing the outcomes based on the Launch date we were able to focus on which time of the year is best to do theater shows. Some conclusions draws by this analysis are as follows:
 - **Most successful month**: Based on our observation it is clear that the month of "May" has the most successful plays as compared to other months. Maximum failed theatricals are in the month of May as well. It provides Louise a clear picture that for her next plays she should prefer doing them in the months of May June and July as they turned out to be more succesful as compared to the other months.
@@ -151,3 +151,8 @@ So Louise, should Try to keep the anticipated Goals for her future plays to be u
 - **Excessive information**: Dataset is providing so much of the information, some of it is irrelevant to our analysis like the Staff_pick and Spotlight those information could be eliminated for this Analysis
 
 #### What are some other possible tables and/or graphs that we could create?
+![barchart_outcome](https://user-images.githubusercontent.com/111251560/187781841-d0cc5028-710d-4cc0-bb1c-2a4a37fe107a.png)
+![piechart](https://user-images.githubusercontent.com/111251560/187781843-af4ae7d0-8205-4fb1-8d68-32bbc16cb52b.png)
+![USplay](https://user-images.githubusercontent.com/111251560/187781846-7436ba5b-50ed-4c2d-9ddb-9b68687e4f8d.png)
+![UStheater](https://user-images.githubusercontent.com/111251560/187781849-8e16412f-91cf-4eb7-a279-f689a44032b7.png)
+![Vlookup](https://user-images.githubusercontent.com/111251560/187781850-4f38d86b-f854-4904-ad6b-cdf55870ba3d.png)
