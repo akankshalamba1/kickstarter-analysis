@@ -33,7 +33,7 @@ Highlight the top row of the file and select Sort & Filter option from the right
 ![Test Image](/Screenshot/Formatting.png)
 
 ---
-![Test Image](/Screenshot/Formatting_2.png)
+![Test Image](/Screenshot/Formatting2.png)
  
 >Conditional formating provide a visual sorting to the outcomes and thus is a great way for the viewer to find information at a glance.
 
@@ -78,16 +78,16 @@ Following are the steps to create a pivot table:
 A Task panel will appear on the right-hand side of the new worksheet named "PivotTable Fields" rows, columns, filters and values can be set by dragging the headings to the respective field. 
 As shows below:
 
-*pivot_table1
+![Test Image](/Screenshot/pivot_table1.png)
 
 To make more detailed analysis we arranged the column labels in ascending order to show the successful outcome first and we only considered on successful, failed and canceled outcomes. The tables appears as follows:
 
-*pivot_table2
+![Test Image](/Screenshot/pivot_table2.png)
 
 #### Line chart to visualize
 In order to get a clear picture of how the Launch months effect the outcomes we created a line chart by highlighting the pivot table and selecting "PivotChart" from the toolbar on the top of the screen it will show up a dialog box with a suggested chart and all charts options from the pivot table data to choose from. The dailog box looks like this
 
-*Line_chart1
+![Test Image](/Resources/Theater_outcome_vs_Launch.png.png)
 
 Click "Ok"
 Then the chart appears on the screen. For this dataset the line chart with theater outcomes based on the launch data looks like the following:
