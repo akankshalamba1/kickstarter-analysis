@@ -25,7 +25,7 @@ Its done as follows:
 
 Highlight the top row of the file and select Sort & Filter option from the right corner of the toolbar then choose Filter. Filters will appear on all the column headings.
 
-![Test Image](/Important material/Fiter.png)
+![Test Image](/Screenshot/Fiter.png)
 
 **Formatting**: We used Conditional formatting to the data file twice by highlighting the specific column we need to be color coded then, go to the conditional formatting icon on the toolbar then select highlight text rules then select equal to from the dropdown menu a pop up window will appear on the screen then type the outcome then select custom color for that outcome. Screenshot of the process attached below:
  *Screenshot 1*
