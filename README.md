@@ -85,14 +85,14 @@ To make more detailed analysis we arranged the column labels in ascending order 
 ![Test Image](/Screenshot/pivot_table2.png)
 
 #### Line chart to visualize
-In order to get a clear picture of how the Launch months effect the outcomes we created a line chart by highlighting the pivot table and selecting "PivotChart" from the toolbar on the top of the screen it will show up a dialog box with a suggested chart and all charts options from the pivot table data to choose from. The dailog box looks like this
+In order to get a clear picture of how the Launch months effect the outcomes we created a line chart by highlighting the pivot table and selecting "PivotChart" from the toolbar on the top of the screen it will show up a dialog box with a suggested chart and all charts options from the pivot table data to choose from. The dailog box looks like 
 
-![Test Image](/Resources/Theater_outcome_vs_Launch.png.png)
+![Test Image](/Screenshot/Line_chartdate.png)
 
 Click "Ok"
 Then the chart appears on the screen. For this dataset the line chart with theater outcomes based on the launch data looks like the following:
 
-*OutcomeVsdate
+![Test Image](/Resources/Theater_outcome_vs_Launch.png.png)
 
 ### Analysis of Outcomes Based on Goals
 
@@ -100,7 +100,7 @@ Then the chart appears on the screen. For this dataset the line chart with theat
 To Analyze the outcome based on the goals, we created a coloumn with Ranges of Goals in a new worksheet from less than 1000 to greater than 50000 to dissect the outcome data even further based on Louise's instructions, various goal ranges are separated by successful, failed and canceled outcomes for only "plays" subcategory. 
 The column looks like following picture:
 
-Goal_Ranges
+![Test Image](/Screenshot/Goal_range.png)
 
 #### Outcome for each goal range
 To calculate the data for Number Sucessful, Number Failed and Number Canceled plays in the particular range we used the COUNTIFS function. The following formula has to be changed for different ranges:
@@ -110,7 +110,7 @@ To calculate the data for Number Sucessful, Number Failed and Number Canceled pl
 #### Percentage of Sucessful, failed and canceled plays
 Once we recieve the outcome of all the three columns, create a new column titled "Total Projects" by adding all outcomes for each range. To evaluate the sucess rate of the plays by the goal range we calculated the percentage of each outcome by dividing the number successful, Failed, Canceled by Total project multiply by 100. The table will look like this:
 
-Goal_table
+![Test Image](/Screenshot/.png)
 
 #### Line chart
 To make the data visually presentable and to back up our recommendation we created a line chart based on the data.
