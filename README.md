@@ -45,12 +45,16 @@ Few calculations were performed with the data to make data tell a story of vario
 
 > =(ROUND(E2/L2,2)
 
-<sub>As some of the pledge amount are 0 for the cancelled campaigns an Error message appeared for some of the cells, to avoid that we used IFERROR function and set the error value to "No Backers"
-The formula is as follows 
+<sub>As some of the pledge amount are 0 for the cancelled campaigns an Error message appeared for some of the cells, to avoid that we used IFERROR function and set the error value to "No Backers. The formula is as follows</sub> 
  
 > =IFERROR(ROUND(E3/L3,2),"No backers")
  
-#### Dates calculations
+#### Date calculations
+The orignal data had some information that was not in readable form like the Launch and the Deadline dates. They are recorded in Unix timestamps. By applying the formula the dates were convert to actual dates.
+
+ >=(((J2/60/60/24)+DATE(1970,1,1)))
+ 
+ <Sub>Unix timestamps measure time as the number of seconds since midnight of January 1, 1970</sub>
 
  
 ### Analysis of Outcomes Based on Launch Date
