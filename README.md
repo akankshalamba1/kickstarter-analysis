@@ -132,9 +132,11 @@ To overcome the difficulties of data we used filters, formating tools and create
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+
 By Analyzing the outcomes based on the Launch date we were able to focus on which time of the year is best to do theater shows. Some conclusions draws by this analysis are as follows:
-- Most successful month: Based on our observation it is clear that the month of "May" has the most successful plays as compared to other months
-- Trend in the success based on the months:
+- **Most successful month**: Based on our observation it is clear that the month of "May" has the most successful plays as compared to other months. Maximum failed theatricals are in the month of May as well. It provides Louise a clear picture that for her next plays she should prefer doing them in the months of May June and July as they turned out to be more succesful as compared to the other months.
+
+- **Trend in the success rate based on the months**: If he look at the line chart based on the Theater outcomes based on launch date as linked above in the Analysis tab it appears that the success rate folows a trend which increases in the beggining of the year and reach its peak in the month of May and then starts to fall back and reach its lowest in the month of December. Alot of contrains could have resulted this. There is a possibilty that as month of May, June and July are spring months, people like to go out to view theater shows more often as compared to cooler months like November and December where shows are less successful. Louise should surely keep weather and other constrain that could effect people going out to watch plays in mind while planning for her next plays.
 
 - What can you conclude about the Outcomes based on Goals?
 
