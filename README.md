@@ -39,16 +39,20 @@ Highlight the top row of the file and select Sort & Filter option from the right
 Few calculations were performed with the data to make data tell a story of various campaigns:
 1. ##### Percentage Funded: Percentage funded was calculated by dividing *Pledge* amount to *Goal* amount multiple by 100, to get whole numbers we used Round function to 0 decimal places. The formula is a follows:
 
-#ffffff =ROUND(E2/D2*100,0)
+> =ROUND(E2/D2*100,0)
 
 2. ##### Average Donations: Average donations were calculated by dividing the Pledged amount to backers count, round function was used to round it off to 2 decimal places. 
 
->=(ROUND(E2/L2,2)
+> =(ROUND(E2/L2,2)
 
 <sub>As some of the pledge amount are 0 for the cancelled campaigns an Error message appeared for some of the cells, to avoid that we used IFERROR function and set the error value to "No Backers"
 The formula is as follows 
  
->=IFERROR(ROUND(E3/L3,2),"No backers")
+> =IFERROR(ROUND(E3/L3,2),"No backers")
+ 
+#### Dates calculations
+
+ 
 ### Analysis of Outcomes Based on Launch Date
 
 ### Analysis of Outcomes Based on Goals
