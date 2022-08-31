@@ -110,7 +110,7 @@ To calculate the data for Number Sucessful, Number Failed and Number Canceled pl
 #### Percentage of Sucessful, failed and canceled plays
 Once we recieve the outcome of all the three columns, create a new column titled "Total Projects" by adding all outcomes for each range. To evaluate the sucess rate of the plays by the goal range we calculated the percentage of each outcome by dividing the number successful, Failed, Canceled by Total project multiply by 100. The table will look like this:
 
-![Test Image](/Screenshot/.png)
+![Test Image](/Screenshot/Table.png)
 
 #### Line chart
 To make the data visually presentable and to back up our recommendation we created a line chart based on the data.
