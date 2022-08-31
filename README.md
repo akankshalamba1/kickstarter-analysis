@@ -116,10 +116,12 @@ Attached is the outcome based on goal line chart:
 outcomev/sgoal
 
 ### Challenges and Difficulties Encountered
+
 Following are some of the difficulties Encountered while working on this project:
 - **Unclear Data**: At first glance the data file appeared to alien, it take time get familiarize with the data as well as we cant use the data in the original form to base our analysis on. Data values such as Launch and Deadline is not easily interpreted as dates. For someone new to excel it will take them a while to point it out, as well as category and subcategory are combined into one set, which make the data complecated
 - **Huge dataset**: Grasping the huge amount of data in one go is really tedious task. It could be overwhelming for someone like Lousie who is new to excel. Data could have been more organized and shrunk.
 - **Use of multiple constrains**: Data range is too wide spread, data from 2009 to 2017 compressed together, with multiple countries and currencies at the same time.
+#### Overcoming difficulties
 
 ## Results
 
