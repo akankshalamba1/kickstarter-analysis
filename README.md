@@ -6,11 +6,13 @@ Kickstarter analysis is based on our client Louise, who we helped in starting a 
 
 Our analysis based on data of 4115 crowdfund fundraisers in 22 countries. Dataset is very detailed and contain crowdfunds in various categories such as film and video, food, games, journalism, music, phtography, publishing, technology and theater. Data provided various outcome of the crowdfund as well as the goal and pledged amount. In the process of making an analysis based on the data we perform various data interpretaion technique, filters and functions on the data to make it readable and easy to understand. 
 
-For this project based on 
+Microsoft Excel was used as the main tool to analyze the data for his project. The data file for this project is Kickstarter_challenge and could be reviewed below:
+
 *ADD LINK TO EXCEL*
+
 ### Purpose
 
-Purpose of Analysis is to provide a deeper understanding of the various factors that need to be considers to have a successful crowdfunding fundraiser. By using various analytical and visualization tools we were able to provide Louise with a better picture of the location, category of play, best time of the year to conduct the play and  
+Purpose of Analysis is to provide a deeper understanding of the various factors responsible for success of various crowdfund fundraising campaigns. For his project we will only be considering on two aspects of comparison of various plays that are Outcome based on the Launch Date and Outcome based on Goals.
 
 ## Analysis and Challenges
 
