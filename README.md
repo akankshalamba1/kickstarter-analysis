@@ -1,14 +1,15 @@
 # kickstarter-analysis
 
 ## Overview of Project
----
+
 Kickstarter analysis is based on our client Louise, who we helped in starting a crowdfunding campaign to help her fund her play, "Fever". Her estimated budget was over $10,000, she was unsure of what factor she should consider while planning her first fundraiser campaign, so she needed help in analzing crowdfunding data from 2009 to 2017. Now her play "Fever" came close to her fundraising goal in a very short term. She wants us to analyze how other campaigns did in relation to their launch date and their funding goal
 
-Our analysis based on data of 4115 crowdfund fundraisers in 22 countries. Dataset is very detailed and contain crowdfunds in various categories such as film and video, food, games, journalism, music, phtography, publishing, technology and theater.
+Our analysis based on data of 4115 crowdfund fundraisers in 22 countries. Dataset is very detailed and contain crowdfunds in various categories such as film and video, food, games, journalism, music, phtography, publishing, technology and theater. Data provided various outcome of the crowdfund as well as the goal and pledged amount. In the process of making an analysis based on the data we perform various data interpretaion technique, filters and functions on the data to make it readable and easy to understand. 
 
+For this project based on 
 *ADD LINK TO EXCEL*
 ### Purpose
----
+
 Purpose of Analysis is to provide a deeper understanding of the various factors that need to be considers to have a successful crowdfunding fundraiser. By using various analytical and visualization tools we were able to provide Louise with a better picture of the location, category of play, best time of the year to conduct the play and  
 
 ## Analysis and Challenges
