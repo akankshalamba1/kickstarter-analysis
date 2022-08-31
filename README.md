@@ -55,6 +55,9 @@ The orignal data had some information that was not in readable form like the Lau
  >=(((J2/60/60/24)+DATE(1970,1,1)))
  
  <Sub>Unix timestamps measure time as the number of seconds since midnight of January 1, 1970</sub>
+Year function was applied to just take the years from the launch date. The formula is as follows:
+ >YEAR(Launch_date_column)
+All these steps were followed to analyze the data.
 
  
 ### Analysis of Outcomes Based on Launch Date
