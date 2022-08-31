@@ -113,7 +113,7 @@ Goal_table
 To make the data visually presentable and to back up our recommendation we created a line chart based on the data.
 Attached is the outcome based on goal line chart:
 
-outcomev/sgoal
+[Test Image](/Resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
