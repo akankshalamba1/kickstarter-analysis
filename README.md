@@ -69,7 +69,7 @@ Following are the steps to create a pivot table:
 
 - click "Insert" on the toolbar followed by selecting "PivotTable" on toolbar
 - A dialog box will apprear "PivotTable from table or range" it by default selects the whole table, choose "New Worksheet" and click "Ok"
-- 
+
 *pivot_table0
 
 A Task panel will appear on the right-hand side of the new worksheet named "PivotTable Fields" rows, columns, filters and values can be set by dragging the headings to the respective field. 
@@ -83,7 +83,9 @@ To make more detailed analysis we arranged the column labels in ascending order 
 
 #### Line chart to visualize
 In order to get a clear picture of how the Launch months effect the outcomes we created a line chart by highlighting the pivot table and selecting "PivotChart" from the toolbar on the top of the screen it will show up a dialog box with a suggested chart and all charts options from the pivot table data to choose from. The dailog box looks like this
+
 *Line_chart1
+
 Click "Ok"
 Then the chart appears on the screen. For this dataset the line chart with theater outcomes based on the launch data looks like the following:
 
@@ -91,6 +93,20 @@ Then the chart appears on the screen. For this dataset the line chart with theat
 
 ### Analysis of Outcomes Based on Goals
 
+#### Data divided by Ranges
+To Analyze the outcome based on the goals, we created a coloumn with Ranges of Goals in a new worksheet from less than 1000 to greater than 50000 to dissect the outcome data even further based on Louise's instructions, various goal ranges are separated by successful, failed and canceled outcomes for only "plays" subcategory. 
+The column looks like following picture:
+
+Goal_Ranges
+
+#### Outcome for each goal range
+To calculate the data for Number Sucessful, Number Failed and Number Canceled plays in the particular range we used the COUNTIFS function. The following formula has to be changed for different ranges:
+
+>=COUNTIFS('Kickstarter sheet'!$F:$F,"Successful",'Kickstarter sheet'!$D:$D, "<1000",'Kickstarter sheet'!$R:$R, "Plays")
+
+#### Percentage of Sucessful, failed and canceled plays
+
+Once we recieve the outcome of all the three columns, create a new column titled "Total Projects" by adding all outcomes for each range. To evaluate how much of the  
 ### Challenges and Difficulties Encountered
 
 ## Results
