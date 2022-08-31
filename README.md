@@ -131,23 +131,23 @@ To overcome the difficulties of data we used filters, formating tools and create
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+####What are two conclusions you can draw about the Outcomes based on Launch Date?
 
 By Analyzing the outcomes based on the Launch date we were able to focus on which time of the year is best to do theater shows. Some conclusions draws by this analysis are as follows:
 - **Most successful month**: Based on our observation it is clear that the month of "May" has the most successful plays as compared to other months. Maximum failed theatricals are in the month of May as well. It provides Louise a clear picture that for her next plays she should prefer doing them in the months of May June and July as they turned out to be more succesful as compared to the other months.
 
 - **Trend in the success rate based on the months**: If he look at the line chart based on the Theater outcomes based on launch date as linked above in the Analysis tab it appears that the success rate folows a trend which increases in the beggining of the year and reach its peak in the month of May and then starts to fall back and reach its lowest in the month of December. Alot of contrains could have resulted this. There is a possibilty that as month of May, June and July are spring months, people like to go out to view theater shows more often as compared to cooler months like November and December where shows are less successful. Louise should surely keep weather and other constrain that could effect people going out to watch plays in mind while planning for her next plays.
 
-- What can you conclude about the Outcomes based on Goals?
+#### What can you conclude about the Outcomes based on Goals?
 
 Analysis of Outcome based on Goals we could conclude that the most number of plays have goal amount between $1000 to $4999, around 388 plays out of 534 were successful. The plays with goal amount Less than $1000 has the most percentage of successful outcomes with 75.81% of plays being successful. We can observe from the line chart of Outcomes based on goals attached in the Analysis tab that as the dollar amount of the goals increase the plays tend to be more Failed than Successful out of the total Projects.
 
 So Louise, should Try to keep the anticipated Goals for her future plays to be under $4999 as it will have the least probability of getting failed based on the outcomes of other crowdfunds. 
 
-- What are some limitations of this dataset?
+#### What are some limitations of this dataset?
 
 - **Data Modelling is tough**: Modelling this huge amount of data is a tidious task at first. I could only be possible by converting the data in a human readable form, as well as data is not very systematic with data from different countries, currencies and vast time period of 2009 to 2017 it makes it hard to drive a accurate conclusion.
 - **External factors affecting outcome not considered**- As no activity is one in isolation, so there are so many external factors that could affect or manipulate the outcomes. There could be so many constrains responsible for the success and failure of a play such as Economic factors, currency fluctuation, weather condition and Government stability of the country at that time of the year all these are the external factors that could affect the results or outcomes that are not taken into consideration at all.
-- ** Excessive information**: Dataset is providing so much of the information, some of it is irrelevant to our analysis like the Staff_pick and Spotlight those information could be eliminated for this Analysis
+- **Excessive information**: Dataset is providing so much of the information, some of it is irrelevant to our analysis like the Staff_pick and Spotlight those information could be eliminated for this Analysis
 
-- What are some other possible tables and/or graphs that we could create?
+#### What are some other possible tables and/or graphs that we could create?
