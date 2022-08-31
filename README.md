@@ -8,7 +8,7 @@ Our analysis based on data of 4115 crowdfund fundraisers in 22 countries. Datase
 
 Microsoft Excel was used as the main tool to analyze the data for this project. The data file for this project is Kickstarter_challenge and could be reviewed below:
 
-*ADD LINK TO EXCEL*
+[kickstarter_challenge](kickstarter-analysis/kickstarter_challenge.zip)
 
 ### Purpose 
 
