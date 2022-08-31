@@ -37,11 +37,11 @@ Highlight the top row of the file and select Sort & Filter option from the right
 #### Performing calculations
 
 Few calculations were performed with the data to make data tell a story of various campaigns:
-1. ##### Percentage Funded #####: Percentage funded was calculated by dividing *Pledge* amount to *Goal* amount multiple by 100, to get whole numbers we used Round function to 0 decimal places. The formula is a follows:
+1. ##### Percentage Funded: Percentage funded was calculated by dividing *Pledge* amount to *Goal* amount multiple by 100, to get whole numbers we used Round function to 0 decimal places. The formula is a follows:
 
-> =ROUND(E2/D2*100,0)
+#ffffff =ROUND(E2/D2*100,0)
 
-2. ##### Average Donations #####: Average donations were calculated by dividing the Pledged amount to backers count, round function was used to round it off to 2 decimal places. 
+2. ##### Average Donations: Average donations were calculated by dividing the Pledged amount to backers count, round function was used to round it off to 2 decimal places. 
 
 >=(ROUND(E2/L2,2)
 
