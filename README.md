@@ -73,7 +73,7 @@ Following are the steps to create a pivot table:
 - click "Insert" on the toolbar followed by selecting "PivotTable" on toolbar
 - A dialog box will apprear "PivotTable from table or range" it by default selects the whole table, choose "New Worksheet" and click "Ok"
 
-*pivot_table0
+![Test Image](/Screenshot/pivot_table0.png)
 
 A Task panel will appear on the right-hand side of the new worksheet named "PivotTable Fields" rows, columns, filters and values can be set by dragging the headings to the respective field. 
 As shows below:
