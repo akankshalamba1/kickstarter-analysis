@@ -58,9 +58,36 @@ The orignal data had some information that was not in readable form like the Lau
 Year function was applied to just take the years from the launch date. The formula is as follows:
  >YEAR(Launch_date_column)
 All these steps were followed to analyze the data.
-
  
 ### Analysis of Outcomes Based on Launch Date
+
+#### Pivot table to provide data clarity
+Analysis based on the Launch date included creating a pivot table on a new sheet labeled "Theater Outcomes by Launch Date". Pivot table was filtered based on "Parent Category" and "Years" with "Outcome" on columns and "Date" on rows and "count of outcomes" on the Value. It provide a deeper understanding of theater outcomes for various months in a very simplified manner and we could easily observe that Month of May had that most successful theater shows with 111 successful shows out of 166 total shows.  
+
+#### Steps to create a pivot table
+Following are the steps to create a pivot table:
+
+- click "Insert" on the toolbar followed by selecting "PivotTable" on toolbar
+- A dialog box will apprear "PivotTable from table or range" it by default selects the whole table, choose "New Worksheet" and click "Ok"
+- 
+*pivot_table0
+
+A Task panel will appear on the right-hand side of the new worksheet named "PivotTable Fields" rows, columns, filters and values can be set by dragging the headings to the respective field. 
+As shows below:
+
+*pivot_table1
+
+To make more detailed analysis we arranged the column labels in ascending order to show the successful outcome first and we only considered on successful, failed and canceled outcomes. The tables appears as follows:
+
+*pivot_table2
+
+#### Line chart to visualize
+In order to get a clear picture of how the Launch months effect the outcomes we created a line chart by highlighting the pivot table and selecting "PivotChart" from the toolbar on the top of the screen it will show up a dialog box with a suggested chart and all charts options from the pivot table data to choose from. The dailog box looks like this
+*Line_chart1
+Click "Ok"
+Then the chart appears on the screen. For this dataset the line chart with theater outcomes based on the launch data looks like the following:
+
+*OutcomeVsdate
 
 ### Analysis of Outcomes Based on Goals
 
