@@ -27,9 +27,12 @@ Highlight the top row of the file and select Sort & Filter option from the right
 
 ![Test Image](/Screenshot/Fiter.png)
 
+---
 **Formatting**: We used Conditional formatting to the data file twice by highlighting the specific column we need to be color coded then, go to the conditional formatting icon on the toolbar then select highlight text rules then select equal to from the dropdown menu a pop up window will appear on the screen then type the outcome then select custom color for that outcome. Screenshot of the process attached below:
- 
-![Test Image](/Screenshot/Formatting.png) 
+--- 
+![Test Image](/Screenshot/Formatting.png)
+
+---
 ![Test Image](/Screenshot/Formatting.2.png)
  
 >Conditional formating provide a visual sorting to the outcomes and thus is a great way for the viewer to find information at a glance.
