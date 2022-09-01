@@ -2,9 +2,9 @@
 
 ## Overview of Project
 
-Kickstarter analysis is based on our client Louise, who we helped in starting a crowdfunding campaign to help her fund her play, "Fever". Her estimated budget was over $10,000, she was unsure of what factor she should consider while planning her first fundraiser campaign, so she needed help in analzing crowdfunding data from 2009 to 2017. Now her play "Fever" came close to her fundraising goal in a very short term. She wants us to analyze how other campaigns did in relation to their launch date and their funding goal.
+Kickstarter analysis is based on our client Louise, who we helped in starting a crowdfunding campaign to help her fund her play, "Fever". Her estimated budget was over $10,000, she was unsure of what factor she should consider while planning her first fundraiser campaign, so she needed help in analyzing crowdfunding data from 2009 to 2017. Now her play "Fever" came close to her fundraising goal in a very short term. She wants us to analyze how other campaigns did in relation to their launch date and their funding goal.
 
-Our analysis based on data of 4115 crowdfund fundraisers in 22 countries. Dataset is very detailed and contain crowdfunds in various categories such as film and video, food, games, journalism, music, phtography, publishing, technology and theater. Data provided various outcome of the crowdfund as well as the goal and pledged amount. In the process of making an analysis based on the data we perform various data interpretaion technique, filters and functions on the data to make it readable and easy to understand. 
+Our analysis based on data of 4115 crowdfund fundraisers in 22 countries. Dataset is very detailed and contain crowdfunds in various categories such as film and video, food, games, journalism, music, photography, publishing, technology and theater. Data provided various outcome of the crowdfund as well as the goal and pledged amount. In the process of making an analysis based on the data we perform various data interpretation technique, filters and functions on the data to make it readable and easy to understand. 
 
 Microsoft Excel was used as the main tool to analyze the data for this project. The data file for this project is Kickstarter_challenge and could be reviewed below:
 
@@ -16,7 +16,7 @@ Purpose of Analysis is to provide a deeper understanding of the various factors 
 
 ## Analysis and Challenges
 
-The analysis is based on a large chunk of data with 4115 rows and 12 columns. In the beggining of the analysis it was tough to analyze or visualize the data to make a recommendation. We had to apply various techniques to make the data understandable. We went though following steps:
+The analysis is based on a large chunk of data with 4115 rows and 12 columns. In the beginning of the analysis it was tough to analyze or visualize the data to make a recommendation. We had to apply various techniques to make the data understandable. We went though following steps:
 
 #### Filtering and Formatting Data
 
@@ -35,7 +35,7 @@ Highlight the top row of the file and select Sort & Filter option from the right
 ---
 ![Test Image](/Screenshot/Formatting2.png)
  
->Conditional formating provide a visual sorting to the outcomes and thus is a great way for the viewer to find information at a glance.
+>Conditional formatting provide a visual sorting to the outcomes and thus is a great way for the viewer to find information at a glance.
 
 #### Performing calculations
 
@@ -53,7 +53,7 @@ Few calculations were performed with the data to make data tell a story of vario
 > =IFERROR(ROUND(E3/L3,2),"No backers")
  
 #### Date calculations
-The orignal data had some information that was not in readable form like the Launch and the Deadline dates. They are recorded in Unix timestamps. By applying the formula the dates were convert to actual dates.
+The original data had some information that was not in readable form like the Launch and the Deadline dates. They are recorded in Unix timestamps. By applying the formula the dates were convert to actual dates.
 
  >=(((J2/60/60/24)+DATE(1970,1,1)))
  
@@ -72,7 +72,7 @@ Analysis based on the Launch date included creating a pivot table on a new sheet
 Following are the steps to create a pivot table:
 
 - click "Insert" on the toolbar followed by selecting "PivotTable" on toolbar
-- A dialog box will apprear "PivotTable from table or range" it by default selects the whole table, choose "New Worksheet" and click "Ok"
+- A dialog box will appear "PivotTable from table or range" it by default selects the whole table, choose "New Worksheet" and click "Ok"
 
 ![Test Image](/Screenshot/pivot_table0.png)
 ---
@@ -98,18 +98,18 @@ Then the chart appears on the screen. For this dataset the line chart with theat
 ### Analysis of Outcomes Based on Goals
 
 #### Data divided by Ranges
-To Analyze the outcome based on the goals, we created a coloumn with Ranges of Goals in a new worksheet from less than 1000 to greater than 50000 to dissect the outcome data even further based on Louise's instructions, various goal ranges are separated by successful, failed and canceled outcomes for only "plays" subcategory. 
+To Analyze the outcome based on the goals, we created a column with Ranges of Goals in a new worksheet from less than 1000 to greater than 50000 to dissect the outcome data even further based on Louise's instructions, various goal ranges are separated by successful, failed and canceled outcomes for only "plays" subcategory. 
 The column looks like following picture:
 
 ![Test Image](/Screenshot/Goal_range.png)
 
 #### Outcome for each goal range
-To calculate the data for Number Sucessful, Number Failed and Number Canceled plays in the particular range we used the COUNTIFS function. The following formula has to be changed for different ranges:
+To calculate the data for Number Successful, Number Failed and Number Canceled plays in the particular range we used the COUNTIFS function. The following formula has to be changed for different ranges:
 
 >=COUNTIFS('Kickstarter sheet'!$F:$F,"Successful",'Kickstarter sheet'!$D:$D, "<1000",'Kickstarter sheet'!$R:$R, "Plays")
 
-#### Percentage of Sucessful, failed and canceled plays
-Once we recieve the outcome of all the three columns, create a new column titled "Total Projects" by adding all outcomes for each range. To evaluate the sucess rate of the plays by the goal range we calculated the percentage of each outcome by dividing the number successful, Failed, Canceled by Total project multiply by 100. The table will look like this:
+#### Percentage of Successful, failed and canceled plays
+Once we receive the outcome of all the three columns, create a new column titled "Total Projects" by adding all outcomes for each range. To evaluate the success rate of the plays by the goal range we calculated the percentage of each outcome by dividing the number successful, Failed, Canceled by Total project multiply by 100. The table will look like this:
 
 ![Test Image](/Screenshot/goal_table.png)
 
@@ -122,21 +122,21 @@ Attached is the outcome based on goal line chart:
 ### Challenges and Difficulties Encountered
 
 Following are some of the difficulties Encountered while working on this project:
-- **Unclear Data**: At first glance the data file appeared to alien, it take time get familiarize with the data as well as we cant use the data in the original form to base our analysis on. Data values such as Launch and Deadline is not easily interpreted as dates. For someone new to excel it will take them a while to point it out, as well as category and subcategory are combined into one set, which make the data complecated
+- **Unclear Data**: At first glance the data file appeared to alien, it take time get familiarize with the data as well as we cant use the data in the original form to base our analysis on. Data values such as Launch and Deadline is not easily interpreted as dates. For someone new to excel it will take them a while to point it out, as well as category and subcategory are combined into one set, which make the data complicated
 - **Huge dataset**: Grasping the huge amount of data in one go is really tedious task. It could be overwhelming for someone like Lousie who is new to excel. Data could have been more organized and shrunk.
 - **Use of multiple constrains**: Data range is too wide spread, data from 2009 to 2017 compressed together, with multiple countries and currencies at the same time.
 
 #### Overcoming difficulties
-To overcome the difficulties of data we used filters, formating tools and created simplified outlook of the Excel sheet by creating columns like "Parent Category" and "Subcategory", as well as "Date Creation Conversion" and "Date Ended Conversion". By using features like pivot table and pivot chart we were able to narrow down the data which is important for this analysis
+To overcome the difficulties of data we used filters, formatting tools and created simplified outlook of the Excel sheet by creating columns like "Parent Category" and "Subcategory", as well as "Date Creation Conversion" and "Date Ended Conversion". By using features like pivot table and pivot chart we were able to narrow down the data which is important for this analysis
 
 ## Results
 
 #### What are two conclusions you can draw about the Outcomes based on Launch Date?
 
 By Analyzing the outcomes based on the Launch date we were able to focus on which time of the year is best to do theater shows. Some conclusions draws by this analysis are as follows:
-- **Most successful month**: Based on our observation it is clear that the month of "May" has the most successful plays as compared to other months. Maximum failed theatricals are in the month of May as well. It provides Louise a clear picture that for her next plays she should prefer doing them in the months of May June and July as they turned out to be more succesful as compared to the other months.
+- **Most successful month**: Based on our observation it is clear that the month of "May" has the most successful plays as compared to other months. Maximum failed theatricals are in the month of May as well. It provides Louise a clear picture that for her next plays she should prefer doing them in the months of May June and July as they turned out to be more successful as compared to the other months.
 
-- **Trend in the success rate based on the months**: If he look at the line chart based on the Theater outcomes based on launch date as linked above in the Analysis tab it appears that the success rate folows a trend which increases in the beggining of the year and reach its peak in the month of May and then starts to fall back and reach its lowest in the month of December. Alot of contrains could have resulted this. There is a possibilty that as month of May, June and July are spring months, people like to go out to view theater shows more often as compared to cooler months like November and December where shows are less successful. Louise should surely keep weather and other constrain that could effect people going out to watch plays in mind while planning for her next plays.
+- **Trend in the success rate based on the months**: If we look at the line chart based on the Theater outcomes based on launch date as linked above in the Analysis tab it appears that the success rate follows a trend which increases in the beginning of the year and reach its peak in the month of May and then starts to fall back and reach its lowest in the month of December. A lot of constrains could have resulted this. There is a possibility that as month of May, June and July are spring months, people like to go out to view theater shows more often as compared to cooler months like November and December where shows are less successful. Louise should surely keep weather and other constrain that could effect people going out to watch plays in mind while planning for her next plays.
 
 #### What can you conclude about the Outcomes based on Goals?
 
@@ -146,7 +146,7 @@ So Louise, should Try to keep the anticipated Goals for her future plays to be u
 
 #### What are some limitations of this dataset?
 
-- **Data Modelling is tough**: Modelling this huge amount of data is a tidious task at first. I could only be possible by converting the data in a human readable form, as well as data is not very systematic with data from different countries, currencies and vast time period of 2009 to 2017 it makes it hard to drive a accurate conclusion.
+- **Data Modelling is tough**: Modelling this huge amount of data is a tedious task at first. I could only be possible by converting the data in a human readable form, as well as data is not very systematic with data from different countries, currencies and vast time period of 2009 to 2017 it makes it hard to drive a accurate conclusion.
 - **External factors affecting outcome not considered**- As no activity is one in isolation, so there are so many external factors that could affect or manipulate the outcomes. There could be so many constrains responsible for the success and failure of a play such as Economic factors, currency fluctuation, weather condition and Government stability of the country at that time of the year all these are the external factors that could affect the results or outcomes that are not taken into consideration at all.
 - **Excessive information**: Dataset is providing so much of the information, some of it is irrelevant to our analysis like the Staff_pick and Spotlight those information could be eliminated for this Analysis
 
